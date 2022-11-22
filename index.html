@@ -1,13 +1,532 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Business Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font -->
+    <link rel="stylesheet" href="resource/font1.css">
+    <link rel="stylesheet" href="resource/hind_siligure.css">
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="resource/normalize.css">
+
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="resource/Magnific-Popup-master/dist/magnific-popup.css">
+
+    <!-- owl carousel  -->
+    <link rel="stylesheet" href="resource/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="resource/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+
+    <!-- cdn font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="CSS/main.css">
+
 </head>
+
 <body>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae ad, est laborum ex perferendis necessitatibus quae, inventore voluptas praesentium eveniet assumenda accusamus dolorem voluptatem asperiores aspernatur architecto fugiat recusandae quibusdam reiciendis? Praesentium rem officiis voluptates facere impedit, sed magni error dignissimos consequatur provident et in adipisci accusantium nobis. Doloribus adipisci quae aut earum ad tempore libero ex magni alias voluptate corrupti architecto cumque sequi dicta necessitatibus porro, fugiat distinctio praesentium illo aliquid quisquam quo. Sapiente similique nobis voluptatibus nam aliquid sint ut tempora, reiciendis facilis ullam exercitationem voluptates soluta necessitatibus, fugiat nulla, eius saepe tempore asperiores! Maxime ipsa neque atque itaque dignissimos earum distinctio consequatur praesentium, voluptatibus impedit. Delectus dolorum eveniet quis ex laborum sapiente distinctio sunt vel, modi ipsam quaerat porro quas! Similique, ducimus explicabo. Placeat laboriosam culpa expedita harum ut optio vel, officiis eius voluptatem, tempora, quam in asperiores atque dignissimos assumenda labore amet nemo illo molestias! Neque cupiditate, fugiat earum et quis nulla voluptatem culpa, aspernatur sed rem consectetur est eveniet ipsum nam, nesciunt deleniti consequuntur molestiae aperiam? Architecto, nulla in excepturi esse ipsa cupiditate natus ipsum itaque unde saepe iusto nam qui dicta aspernatur quis eaque exercitationem sequi aliquid! Quo delectus rem, veniam maxime aperiam ab pariatur, corrupti mollitia eum cupiditate iure magnam voluptatem alias, itaque consequuntur dolorum laudantium est fugit. Eos voluptatum odio minus! Amet neque itaque expedita maxime error et impedit mollitia consequuntur rem earum. Ratione, enim magnam odio labore laboriosam tempora quo cumque, consequuntur inventore impedit dolorum eos ipsum quae vitae natus iste maiores, doloribus itaque rerum! Reprehenderit, pariatur omnis! Perferendis asperiores blanditiis autem accusamus adipisci omnis, laborum deleniti eligendi magnam fugit dolorem minus impedit dolores sint rem at, quas reiciendis. Consequatur neque possimus pariatur corrupti repellat debitis beatae velit? Error, sapiente ipsam et cupiditate corrupti praesentium, nisi iure reprehenderit id odit saepe!
-    
+
+    <!-- Progress Bar -->
+    <div id="ProgressBar"></div>
+    <div id="ScrollBar"></div>
+
+    <!-- header start -->
+    <header class="header" id="intro">
+        <nav class="navbar">
+            <div class="container">
+                <div class="brand-and-toggler">
+                    <a href="index.html" class="navbar-brand">
+                        Business Website
+                    </a>
+                    <button type="button" class="navbar-toggler" id="navbar-toggler">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#intro" class="nav-link">intro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#feature" class="nav-link">feature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pricing" class="nav-link">pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testimonial" class="nav-link">testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-div center container">
+            <h1>we make your website stand out</h1>
+            <p>The best way to connet people with your brand</p>
+            <div class="hero-btns">
+                <button type="button" class="btn-trans">Learn more</button>
+                <button type="button" class="btn-white">meet our people</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- header End -->
+
+    <!-- details section -->
+    <section class="detail">
+        <div class="container">
+            <div class="row">
+                <div class="detail-item">
+                    <span><i class="fas fa-tablet-alt"></i></span>
+                    <h2>Responsive Design</h2>
+                    <div class="line"></div>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ducimus autem porro nesciunt, soluta vitae totam odit praesentium modi earum culpa consequatur quod asperiores! Quaerat?</p>
+                </div>
+
+                <div class="detail-item">
+                    <span><i class="fab fa-html5"></i></span>
+                    <h2>HTML5</h2>
+                    <div class="line"></div>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ducimus autem porro nesciunt, soluta vitae totam odit praesentium modi earum culpa consequatur quod asperiores! Quaerat?</p>
+                </div>
+
+                <div class="detail-item">
+                    <span><i class="fas fa-bell"></i></span>
+                    <h2>24 Hour Support</h2>
+                    <div class="line"></div>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ducimus autem porro nesciunt, soluta vitae totam odit praesentium modi earum culpa consequatur quod asperiores! Quaerat?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of details section -->
+
+    <!-- feature section -->
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="feature-left">
+                    <img src="img/feature.jpg" alt="">
+                </div>
+                <div class="feature-right">
+                    <div class="title wow bounceInUp"data-wow-offset="10"  data-wow-iteration="10">
+                        <h2>Explore the Features</h2>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis tempora animi placeat saepe laborum?</p>
+                    </div>
+                    <div class="feature-item">
+                        <span><i class="fas fa-tablet-alt"></i></span>
+                        <div>
+                            <h3>Responsive Design</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta odio quibusdam facere earum veniam corporis.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <span><i class="fas fa-clone"></i></span>
+                        <div>
+                            <h3>Retine Ready</h3>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta odio quibusdam facere earum veniam corporis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of feature section -->
+
+    <!-- sample video section -->
+    <section class="video">
+        <div class="container">
+            <!-- <a class=" popup-youtube" href="https://www.youtube.com/watch?v=XV1cOGaZUq0&t=88s" > -->
+            <!-- <a class="center popup-youtube" href="javascript:void(0)"> -->
+            <a class="center popup-youtube" href="https://www.youtube.com/watch?v=XV1cOGaZUq0&t=88s">
+                <i class="fas fa-play"></i>
+            </a>
+            <h2>Watch Sample Video</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum aperiam praesentium voluptas minus totam! Molestiae, dolore. Assumenda rem atque veritatis.</p>
+        </div>
+    </section>
+
+    <!--end sample video section -->
+
+    <!-- team section  -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="title">
+                <h2>Meet Best People</h2>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="row owl-carousel owl-theme">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/cus_2.jpg" alt="">
+                        <div class="team-icon">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Full Name Here</h3>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/cus_3.jpg" alt="">
+                        <div class="team-icon">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Full Name Here</h3>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/cus_8.jpg" alt="">
+                        <div class="team-icon">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Full Name Here</h3>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/cus_9.jpg" alt="">
+                        <div class="team-icon">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Full Name Here</h3>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/cus_4.jpg" alt="">
+                        <div class="team-icon">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Full Name Here</h3>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/cus_12.jpg" alt="">
+                        <div class="team-icon">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Full Name Here</h3>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end team section -->
+
+    <!-- faq section -->
+    <section class="faq">
+        <div class="container">
+            <div class="title">
+                <h2>Have Any Question?</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+
+            <div class="row">
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>What is Web Development?</h3>
+                        <span><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto nam facilis incidunt quia dicta aliquam tenetur, consequuntur veritatis facere magni saepe id, maxime illum?</p>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora consequuntur eligendi ducimus esse velit alias!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>Which technologies are important for web development?</h3>
+                        <span><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto nam facilis incidunt quia dicta aliquam tenetur, consequuntur veritatis facere magni saepe id, maxime illum?</p>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora consequuntur eligendi ducimus esse velit alias!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>What type of website are good for business purpose?</h3>
+                        <span><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iusto nam facilis incidunt quia dicta aliquam tenetur, consequuntur veritatis facere magni saepe id, maxime illum?</p>
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora consequuntur eligendi ducimus esse velit alias!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end faq section -->
+
+    <!-- Pricing section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="title">
+                <h2>Our Pakage</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="row">
+                <div class="pricing-item">
+                    <h2>Business Version</h2>
+                    <div class="price">
+                        <span>$ 120</span>
+                        <span class="text">Monthly</span>
+                    </div>
+                    <ul>
+                        <li>24 Accounts</li>
+                        <li>10 GB Storage</li>
+                        <li>Lifetime Support</li>
+                        <li>Reliable Service</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-item">
+                    <h2>Professional Version</h2>
+                    <div class="price">
+                        <span>$ 120</span>
+                        <span class="text">Monthly</span>
+                    </div>
+                    <ul>
+                        <li>24 Accounts</li>
+                        <li>10 GB Storage</li>
+                        <li>Lifetime Support</li>
+                        <li>Reliable Service</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-item">
+                    <h2>Standard Version</h2>
+                    <div class="price">
+                        <span>$ 120</span>
+                        <span class="text">Monthly</span>
+                    </div>
+                    <ul>
+                        <li>24 Accounts</li>
+                        <li>10 GB Storage</li>
+                        <li>Lifetime Support</li>
+                        <li>Reliable Service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end pricing section -->
+
+    <!-- testimonial section -->
+    <section class="testimonial" id="testimonial">
+        <div class="container">
+            <div class="title">
+                <h2>Testimonial Words</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="row owl-carousel owl-theme">
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="img/cus_7.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus doloribus dolorum minus iusto aperiam quos voluptatibus, vel reiciendis reprehenderit dolorem!</p>
+                    <span>Someone's Name</span>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="img/cus_8.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus doloribus dolorum minus iusto aperiam quos voluptatibus, vel reiciendis reprehenderit dolorem!</p>
+                    <span>Someone's Name</span>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="img/cus_13.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus doloribus dolorum minus iusto aperiam quos voluptatibus, vel reiciendis reprehenderit dolorem!</p>
+                    <span>Someone's Name</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end testimonial section -->
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="title">
+                <h2>Contact Us</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+
+            <div class="row">
+                <div class="contact-left">
+                    <h2>Send Message Here</h2>
+                    <form action="">
+                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <textarea placeholder="Message" rows="6"></textarea>
+                        <button type="submit" class="submit-btn">Send Now</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <div>
+                        <h2>Visit Office</h2>
+                        <p class="text">1001 Parker Street, Floride - Orlando, 8000, United States</p>
+                    </div>
+                    <div>
+                        <h2>Call Us</h2>
+                        <p class="text">0033-2345-3565 / 0333-5698-1560</p>
+                    </div>
+                    <div>
+                        <h2>Send Email</h2>
+                        <p class="text">Website.Design@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end contact section -->
+
+    <!-- footer -->
+    <footer class="footer center">
+        <div class="container">
+            <p class="text">Copyright &copy; Hammad Website | All Rights Reserved</p>
+            <div class="footer-link">
+                <a href="" class="center">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="center">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="center">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="center">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="center">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="resource/jquery-3.6.1.js"></script>
+
+    <!-- magnific popup -->
+    <script src="resource/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
+    <!-- owl carousel  -->
+    <script src="resource/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new WOW().init();
+        </script>
+    <!-- Customer Js -->
+    <script src="JS/script.js" async defer></script>
 </body>
+
 </html>
